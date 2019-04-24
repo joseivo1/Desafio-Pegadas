@@ -1,0 +1,253 @@
+body {
+    font-family: myriad-pro, sans-serif;
+    background: #9ACDCE;
+}
+
+/* Navbar */
+
+nav {
+    height: 9%;
+    font-size: 0.9em;
+    color: #9ACDCE;
+    background-color: #9ACDCE;
+}
+nav .texto{
+    margin-left: 30px;
+}
+
+.logo{
+    position: absolute;
+    top: -1px;
+    height: 100%;
+}
+nav div li .luz-sombra{
+    position: relative;
+    top: -3px;
+    left: 20px;
+    width: 80%;
+    height: 70%;
+}
+
+nav a {
+    color: black;
+}
+
+/* Signin */
+/*
+.form-signin {
+    margin-top: 25vh;
+    width: 25%;
+    border: 3px solid #9ACDCE;
+    border-radius: 0;
+    padding: 2%;
+    text-align: center;
+    background: url("/PNG/BackGround-formulario.png")
+}
+
+.form-signin label {
+    float: left;
+}
+
+.form-signin input {
+    border: 1.5px solid #69A3A3;
+}
+
+.form-signin button {
+    background-color: #69A3A3;
+    color: white;
+}
+.form-signin button .fundo1{
+    background-color: #79b5b5;
+}
+.form-signin button .fundo2{
+    background-color: #9acdce;
+}
+
+.formulario-login{
+    position: relative;
+    
+}*/
+
+/*Elementos Do Login*/
+#login{
+    display: flex;
+
+}
+
+#back{
+    position: absolute;
+    border-radius: 0px;
+    border: none;
+    width: 22%;
+    height: 44%;
+    top: 30%;
+    left: 38.2%;
+    min-width: 200px;
+    min-height: 305px;
+    background: #69a3a3 url(/PNG/login-back.png);
+}
+.fundo1{
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #9acdce;
+}
+.fundo2{
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #9acdce;
+}
+/*formatação Textos*/
+.place-holder{
+    color: #69a3a3;
+    font-size: 1.1em;
+}
+.boa-vinda{
+    position: absolute;
+    font-size: 1.8em;
+}
+#aluno{
+    position: relative;
+    top: -3%;
+    font-size: 1.1em;
+    color: white;
+    margin: 0px auto;
+    background: #69a3a3;
+}
+
+.texto-esqueci{
+    font-size: 1.1em;
+    color: white;
+}
+
+.espacamento-entre{
+    top: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/*******
+        Avatares
+                *********/
+.conteiner-imagens{
+    width: 100%;
+    height: 70%;
+    padding-bottom: -20%;
+
+} 
+
+.icones_tamanhos{
+    max-width: 115px;
+    max-height: 65px;
+}
+
+#avatar2m{
+    margin: 33% 0 0 -40%;
+    max-width: 37%;
+    min-width: 20%;
+    max-height: 10%;
+    min-height: 50px;
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: initial;
+}
+#avatar1f{
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: initial;
+    margin: 30% 0 0 105%;
+    max-width: 29%;
+    min-width: 20%;
+    max-height: 15%;
+    min-height: 10%;
+}
+
+/*Lados*/
+.esquerda{
+    background-repeat: no-repeat;
+    background: url(/PNG/detalhes_esquerda.png);
+}
+.direita{
+    border: 1px solid red;
+    background: url(/PNG/detalhes_direita.png);
+}
+/*Icones*/
+.icon1-lapis{
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 37%;
+    top: -300px;
+}
+.icon2-giz{
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 15%;
+    top: -200px;
+}
+.icon3-frasco{
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 40%;
+    top: -120px;
+}
+.icon4-globo{
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: -62px;
+    left: 40%;
+}
+.icon5-ciencia{
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 65%;
+    top: -152px;
+}
+.icon6-livro{
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 45%;
+    top: -70px;
+}
+
+
+
+
+
+/* Footer */
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 90%;
+    max-height: 17%;
+    background: url(/PNG/footer@144x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    bottom: 0;
+    margin:0;
+    padding: 0;
+}
+#footer .imagem-footer{
+    background: #9ACDCE;
+
+}
+
