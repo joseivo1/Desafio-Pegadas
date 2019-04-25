@@ -19,6 +19,9 @@ nav .texto{
     position: absolute;
     top: -1px;
     height: 100%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
 }
 nav div li .luz-sombra{
     position: relative;
@@ -93,12 +96,18 @@ nav a {
     font-size: 1.1em;
     background-color: #9acdce;
 }
+.fundo1:hover{
+    background-color: #69a3a3;
+}
 .fundo2{
     border: none;
     border-radius: 0px;
     color: white;
     font-size: 1.1em;
     background-color: #9acdce;
+}
+.fundo2:hover{
+    background-color: #69a3a3;
 }
 /*formatação Textos*/
 .place-holder{
@@ -107,7 +116,13 @@ nav a {
 }
 .boa-vinda{
     position: absolute;
+    top: 18%;
+    left: 35%;
     font-size: 1.8em;
+    color: white;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
 }
 #aluno{
     position: relative;
@@ -146,20 +161,20 @@ nav a {
 
 #avatar2m{
     margin: 33% 0 0 -40%;
-    max-width: 37%;
+    max-width: 33%;
     min-width: 20%;
-    max-height: 10%;
+    max-height: 13%;
     min-height: 50px;
 
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: initial;
 }
 #avatar1f{
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: initial;
-    margin: 30% 0 0 105%;
+    margin: 30% 0 0 106%;
     max-width: 29%;
     min-width: 20%;
     max-height: 15%;
@@ -172,7 +187,6 @@ nav a {
     background: url(/PNG/detalhes_esquerda.png);
 }
 .direita{
-    border: 1px solid red;
     background: url(/PNG/detalhes_direita.png);
 }
 /*Icones*/
